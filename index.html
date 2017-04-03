@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart And Local Storage</title>
+        <meta charset="utf-8">
+        <meta name="author" content="kamal pandey">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="listing">
+                <div class="listingContainer">
+                    <ul class="listing_list">
+                        <li class="listing_item">
+                            <div class="listing_item_container">
+                                <div class="image_container">
+                                    <img src="images/product.jpg" alt="product 1" class="item_image" id="item_1" item-price = "2000" position="0">
+                                </div>
+                                <div class="details_container">
+                                    <div class="name_container">
+                                        xyz product
+                                    </div>
+                                    <div class="brand_container">
+                                        Apple India 
+                                    </div>
+                                    <div class="price_container">
+                                        <span class="currency_logo">Rs. </span>
+                                        <span class="currency_value" item-price = "2000"> 2000 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="listing_item">
+                            <div class="listing_item_container">
+                                <div class="image_container">
+                                    <img src="images/product.jpg" alt="product 1" class="item_image" id="item-2" item-price = "2000" position="1">
+                                </div>
+                                <div class="details_container">
+                                    <div class="name_container">
+                                        xyz product
+                                    </div>
+                                    <div class="brand_container">
+                                        Apple India 
+                                    </div>
+                                    <div class="price_container">
+                                        <span class="currency_logo">Rs. </span>
+                                        <span class="currency_value" item-price = "2000"> 2000 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="listing_item">
+                            <div class="listing_item_container">
+                                <div class="image_container">
+                                    <img src="images/product.jpg" alt="product 1" class="item_image" id="item-3" item-price = "2000" position="2">
+                                </div>
+                                <div class="details_container">
+                                    <div class="name_container">
+                                        xyz product
+                                    </div>
+                                    <div class="brand_container">
+                                        Apple India 
+                                    </div>
+                                    <div class="price_container">
+                                        <span class="currency_logo">Rs. </span>
+                                        <span class="currency_value"> 2000 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <section class="cart" id="cart">
+                <div class="cart_head">
+                    Cart 
+                </div>
+                <ul class="cart_list" id="cart_list">
+                </ul>
+                <div class="cart_footer">
+                    <span class="footer_msg" id="footer_msg">Total </span>
+                    <span class="currency_symbol">Rs: </span>
+                    <span class="price" id="total_price">0</span>
+                </div>
+
+            </section>
+        </div>
+        <script src="app.js" type="application/javascript" rel="script"></script>
+    </body>
+</html>
